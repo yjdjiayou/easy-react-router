@@ -7,7 +7,7 @@ export default class Login extends React.Component{
         }else{
             this.props.history.push('/');
         }
-    }
+    };
     render(){
         return (
             <button className="btn btn-primary" onClick={this.handleLogin}>登录</button>
